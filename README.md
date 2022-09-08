@@ -16,31 +16,31 @@ A C# based API That hosts information about national parks- including their name
 
 ## Technologies Used
 
-_C#
-_.NET
-\_Swagger
-\_XML
-\_SQL Workbench
-\_Entity Framework
-\_MVC
+*_ C#
+*_ .NET
+*_ Swagger
+*_ XML
+*_ SQL Workbench
+*_ Entity Framework
+*_ MVC
 
 ## Description
 
 This API is made up of a list of parks found across America. The returned lists are curated by :
 
-- \_Name - name of the park
-- \_Location - Which part of the Country is the park in
-- \_Camping allowed - can you camp in this park
-- \_ParkFee - What is the cost of entrance for each park
+-_ Name - name of the park
+-_ Location - Which part of the Country is the park in
+-_ Camping allowed - can you camp in this park
+-_ ParkFee - What is the cost of entrance for each park
 
 Endpoints for this api, including endpoint to swagger documentation:
 
 _* api/NationalParks - returns all listed parks and information*
 __ 5001/api/NationalParks/{id} - returns a park by id_ \*_ Put, Post, Delete updates may all be made by id number as well._
 
-After following the set up instructions below see swagger documentation for more information:\_
+After following the set up instructions below see swagger documentation for more information:
 
-\*_ /swagger_
+*_ /swagger_
 
 ## Setup and Installation Requirements
 
