@@ -2,12 +2,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Collections.Generic;  
 
-
 namespace NationalParks.Models
 {
     public class NationalPark
     {		
-				[Key]
+				[Required] [Key]
         public int ParkId { get; set; }
 				[Required]
 				public string Name { get; set; }
